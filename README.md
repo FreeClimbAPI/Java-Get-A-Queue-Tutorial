@@ -1,23 +1,23 @@
 # Java - Get a Queue Tutorial
 
-This project serves as a guide to help you build an application with Persephony. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
 
-- Get the details of queue  
+- Get the details of queue
 
-## Setting up your new app within your Persephony account
+## Setting up your new app within your FreeClimb account
 
-To get started using a persephony account, follow the instructions [here](https://persephony-docs.readme.io/docs/getting-started-with-persephony).
+To get started using a FreeClimb account, follow the instructions [here](https://persephony-docs.readme.io/docs/getting-started-with-persephony).
 
 ## Setting up the Tutorial
 
 1. Configure environment variables.
 
-   | ENV VARIABLE            | DESCRIPTION                                                                                                                                                                             |
-   | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | ACCOUNT_ID              | Account ID which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard                                                         |
-   | AUTH_TOKEN              | Authentication Token which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard                                               |
+   | ENV VARIABLE | DESCRIPTION                                                                                                                               |
+   | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+   | ACCOUNT_ID   | Account ID which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard           |
+   | AUTH_TOKEN   | Authentication Token which can be found under [API Keys](https://www.persephony.com/dashboard/portal/account/authentication) in Dashboard |
 
-3. Provide a value for the variable `queueuId` . More about queues can be found [here](https://docs.persephony.com/reference/queues-1)
+2. Provide a value for the variable `queueuId` . More about queues can be found [here](https://docs.persephony.com/reference/queues-1)
 
 ## Building and Runnning the Tutorial
 
