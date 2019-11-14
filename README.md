@@ -1,6 +1,6 @@
 # Java - Get a Queue Tutorial
 
-This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/get-a-queue#section-java). Specifically, the project will:
 
 - Get the details of queue
 
