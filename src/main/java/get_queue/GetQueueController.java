@@ -27,15 +27,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class GetQueueController {
-  // get accountId and authToken from environment variables
+  // get accountId and apiKey from environment variables
   private String accountId = System.getenv("ACCOUNT_ID");
-  private String authToken = System.getenv("AUTH_TOKEN");
+  private String apiKey = System.getenv("API_KEY");
 
   @RequestMapping("/queue")
   public Queue getQueue(String queueId) {
     try {
       // Create FreeClimbClient object
-      FreeClimbClient client = new FreeClimbClient(accountId, authToken);
+      FreeClimbClient client = new FreeClimbClient(accountId, apiKey);
 
       // Invoke get method to retrieve queue metadata
       Queue queue = client.queues.get(queueId);
